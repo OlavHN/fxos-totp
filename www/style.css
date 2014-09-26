@@ -1,0 +1,23 @@
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('resources/fonts/FiraSans-Hair.eot');
+    src: local('Fira Sans Hair'),
+         url('resources/fonts/FiraSans-Hair.eot') format('embedded-opentype'),
+         url('resources/fonts/FiraSans-Hair.woff') format('woff'),
+         url('resources/fonts/FiraSans-Hair.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+  font-family: 'Fira Sans';
+}
+
+.header-logo {
+  height: 70%;
+  width: auto;
+}
+
+.rounded {
+  border-radius: 50%;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Time-Based One-Time Password",
+  "description": "Time-Based One-Time Password",
+  "type": "privileged",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Olav",
+    "url": "https://github.com/OlavHN/fxos-totp"
+  },
+  "icons": {
+    "128": "/resources/logo.png"
+  }
+}

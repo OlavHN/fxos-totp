@@ -1,0 +1,26 @@
+{
+  "name": "Time-Based One-Time Password",
+  "version": "0.0.0",
+  "description": "Time-Based One-Time Password",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "browserify": {
+    "transform": [
+      [
+        "reactify",
+        {
+          "harmony": true
+        }
+      ],
+      "cssify"
+    ]
+  },
+  "dependencies": {
+    "react": "^0.11.0"
+  },
+  "devDependencies": {
+    "reactify": "^0.14.0",
+    "cssify": "^0.5.1"
+  }
+}
